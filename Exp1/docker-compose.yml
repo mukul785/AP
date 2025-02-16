@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000" 
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/lms_final
+    depends_on:
+      - mongodb
+
+  frontend:
+    build:
+      context: ./client
+    ports:
+      - "3000:80"  
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"  

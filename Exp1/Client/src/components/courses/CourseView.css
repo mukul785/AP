@@ -1,0 +1,90 @@
+.course-view {
+    padding: 20px; /* Adjusted padding */
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--background-base);
+    min-height: calc(100vh - 70px);
+    font-size: 18px; /* Increased font size */
+}
+
+.course-view h1 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.course-header h1 {
+    font-size: 32px; /* Increased font size */
+}
+
+.back-button {
+    padding: 10px 20px; /* Adjusted padding */
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px; /* Increased font size */
+}
+
+.back-button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.description {
+    color: var(--text-secondary);
+    font-size: 20px; /* Increased font size */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.course-content {
+    background: var(--background-card);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    margin-top: 20px; /* Adjusted margin */
+}
+
+.content-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background: var(--background-input);
+}
+
+.enroll-button {
+    margin-top: 20px; /* Adjusted margin */
+    padding: 10px 20px; /* Adjusted padding */
+    background-color: var(--green-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    transition: all 0.3s ease;
+}
+
+.enroll-button:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.video-content iframe {
+    width: 60%;
+    height: 400px; /* Adjusted height */
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.document-content p {
+    font-size: 18px; /* Increased font size */
+    margin-bottom: 10px; /* Adjusted margin */
+}
